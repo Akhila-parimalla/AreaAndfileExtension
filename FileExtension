@@ -1,0 +1,7 @@
+filename=input("Input the Filename:")
+f_ext=filename.split(".")
+if(str(f_ext[-1])!="py"):
+   print("The extension of the file is :" + f_ext[-1])
+else:
+ f_ext="python"
+ print("The extension of the file is:" +repr(f_ext))
